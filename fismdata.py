@@ -32,11 +32,8 @@ plt.plot(times, euv_bin_56, label='56th bin of EUV spectrum')
 
 plt.xlabel('Time', size=14)
 plt.ylabel('EUV Irradiance (W/m^2/nm)', size=14)
-plt.title('56th Bin of EUV Spectrum as a Function of Time', size=16)
-plt.grid(True)
-plt.xticks(rotation=45)  
-plt.tight_layout()  
+plt.title('56th Bin of EUV Spectrum Vs Time', size=16)
+plt.grid(True) 
 plt.legend()
 
-# Show the plot
 plt.show()
